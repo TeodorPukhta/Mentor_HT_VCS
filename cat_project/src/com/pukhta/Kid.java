@@ -8,8 +8,9 @@ public class Kid extends Person {
     public void eat(){
         System.out.println("eat");
     }
+
     @Override
     void voice() {
-        System.out.println("Hello, my name is " + name);
+        System.out.println("Hello, my name is " + super.name);
     }
 }
